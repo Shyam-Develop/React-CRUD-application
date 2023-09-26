@@ -1,0 +1,12 @@
+.card{
+    background-image: url(https://i.pinimg.com/originals/25/63/8c/25638ca8b85cccc2d210923f86f3368b.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@media (max-width: 768px) {
+    /* Adjust background-size for smaller screens (e.g., mobile devices) */
+    .card {
+        background-size: cover;
+    }
+}

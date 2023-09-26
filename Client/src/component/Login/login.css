@@ -1,0 +1,52 @@
+.login{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_ZWfcMxpUqmTZH7xsLNAb2kA_KjNP14Bmw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.log {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 200;
+    opacity: 0.5;
+    background-color: #f5150d;
+}
+
+.login-container {
+
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+   
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9; /* Change this color to the one you prefer */
+}
